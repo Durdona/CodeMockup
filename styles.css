@@ -34,3 +34,27 @@ body {
 	-webkit-mask-size: cover;
 	height: 100vh;
 }
+
+.headline-mask .losangeles {
+	color: rgba(77, 77, 77, 1);
+	font-family: 'Bebas Neue', cursive;
+	font-size: 12rem;
+	text-transform: uppercase;
+	position: absolute;
+	top: 28%;
+	left: 44%;
+	transform: translate(-50%, -50%);
+	letter-spacing: -1px;
+}
+
+.headline-mask .mountains {
+	color: #414f6b;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 12rem;
+	text-transform: uppercase;
+	position: absolute;
+	top: 44%;
+	left: 44%;
+	transform: translate(-50%, -50%);
+	letter-spacing: 5px;
+}
