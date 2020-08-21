@@ -1,18 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 body {
-	height: 100vh;
-	width: 100vw;
+	/* height: 100vh; */
+	/* width: 100vw; */
 	font-family: 'Maven Pro', sans-serif;
 	/* font-family: 'Bebas Neue', cursive; */
 }
-
-.hero {
+.container {
+	padding: 0 15%;
+}
+/* ======================================= Hero Page #1 ======================================= */
+#hero {
 	background: url('./assets/background.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
@@ -38,7 +42,7 @@ body {
 .headline-mask .losangeles {
 	color: rgba(77, 77, 77, 1);
 	font-family: 'Bebas Neue', cursive;
-	font-size: 12rem;
+	font-size: 11rem;
 	text-transform: uppercase;
 	position: absolute;
 	top: 28%;
@@ -50,11 +54,125 @@ body {
 .headline-mask .mountains {
 	color: #414f6b;
 	font-family: 'Bebas Neue', cursive;
-	font-size: 12rem;
+	font-size: 11rem;
 	text-transform: uppercase;
 	position: absolute;
 	top: 44%;
 	left: 44%;
 	transform: translate(-50%, -50%);
 	letter-spacing: 5px;
+}
+
+/* Menu  */
+.nav-menu {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 12vh;
+	/* background: pink; */
+}
+
+.ul-menu {
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	list-style: none;
+}
+
+.ul-menu li a {
+	text-decoration: none;
+	color: white;
+	padding-left: 15px;
+	text-transform: uppercase;
+	font-style: italic;
+	position: relative;
+}
+
+.ul-menu li a:after {
+	content: '';
+	position: absolute;
+	border-bottom: 1px solid white;
+	bottom: -6px;
+	left: 15px;
+	width: 85%;
+}
+.ul-menu li a:hover:after {
+	transition: all 0.5s ease-in-out;
+	border-bottom: 1px solid blue;
+}
+/* ======================================= History Page #2 ======================================= */
+.logo-headline {
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+	align-items: center;
+}
+.logo-headline-wrapper {
+	display: flex;
+	flex-flow: column;
+	padding-left: 4%;
+	text-transform: uppercase;
+	font-family: 'Bebas Neue', cursive;
+	font-size: 2rem;
+	line-height: 2rem;
+}
+.logo-headline-wrapper .losangeles {
+	color: rgba(77, 77, 77, 1);
+	letter-spacing: 0.5px;
+}
+.logo-headline-wrapper .mountains {
+	color: #414f6b;
+	letter-spacing: 1.8px;
+}
+#history .nav-menu .ul-menu li a {
+	color: #414f6b;
+	position: relative;
+}
+#history .nav-menu .ul-menu li a:after {
+	color: #414f6b;
+	position: absolute;
+	border-bottom: 1px solid #414f6b;
+}
+#history .nav-menu .ul-menu li a:hover:after {
+	transition: all 0.5s ease-in-out;
+	border-bottom: 1px solid blue;
+}
+
+.history {
+	background: url('./assets/peak.png') no-repeat;
+	background-position: top center;
+	background-size: cover;
+	height: 100vh;
+}
+.history-overlay {
+	background-color: rgba(255, 255, 255, 0.03);
+	backdrop-filter: hue-rotate(30deg);
+	height: 100vh;
+}
+.history-headline {
+	position: relative;
+}
+.history-title-number {
+	font-size: 12rem;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: -1px;
+	/* color: #414f6b; */
+	color: rgba(65, 79, 107, 0.5);
+	padding-left: 2%;
+}
+.history-title {
+	position: absolute;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3rem;
+	color: #414f6b;
+	bottom: 80px;
+	left: 211px;
+}
+
+.history-story {
+	line-height: 1.5rem;
+	padding: 0 10%;
+	margin-top: -40px;
 }
