@@ -125,6 +125,7 @@ body {
 	color: #414f6b;
 	letter-spacing: 1.8px;
 }
+
 #history .nav-menu .ul-menu li a {
 	color: #414f6b;
 	position: relative;
@@ -176,3 +177,17 @@ body {
 	padding: 0 10%;
 	margin-top: -40px;
 }
+/* =========================== Carousel  ======================== */
+#carousel {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	height: 20vh;
+	background: rgba(65, 79, 107, 0.7);
+	width: 100vw;
+}
+
+/* #climb {
+	height: 100vh;
+	background: coral;
+} */
