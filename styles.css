@@ -175,7 +175,7 @@ body {
 	font-size: 3rem;
 	color: #414f6b;
 	bottom: 80px;
-	left: 211px;
+	left: 214px;
 }
 
 .history-story {
@@ -184,18 +184,7 @@ body {
 	margin-top: -40px;
 }
 /* =========================== Carousel  ======================== */
-/* #carousel {
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	height: 20vh;
-	background: rgba(65, 79, 107, 0.7);
-	width: 100vw;
-}
-.slick-slide {
-	margin-right: 10px !important;
-	margin-left: 10px !important;
-} */
+
 #carousel {
 	position: absolute;
 	bottom: 0;
@@ -244,7 +233,123 @@ body {
 :root {
 	--swiper-theme-color: lightgrey !important;
 }
-/* #climb {
-	height: 100vh;
-	background: coral;
-} */
+
+/* ======================================= Climb Page #3 ======================================= */
+.climb-header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.climb-headline {
+	position: relative;
+}
+
+.climb-title-number {
+	font-size: 12rem;
+	font-family: 'Oswald', sans-serif;
+	letter-spacing: -1px;
+	padding-left: 2%;
+	color: rgba(65, 79, 107, 0.5);
+	/* color: #414f6b; */
+}
+.climb-title {
+	position: absolute;
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+	font-size: 3rem;
+	color: #414f6b;
+	bottom: 80px;
+	left: 215px;
+}
+.climb-paragraph {
+	width: 70%;
+	padding-right: 5%;
+	padding-left: 5%;
+}
+
+/* ------------ Building Tab ------------------ */
+.climb-background {
+	background: url('./assets/climb_background.jpg') no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 70%;
+}
+.climb-tab-background {
+	background: rgba(65, 79, 107, 0.9);
+}
+.climb-tab-menu {
+	font-family: 'Bebas Neue', cursive;
+	text-transform: uppercase;
+	font-size: 2rem;
+	color: lightgrey;
+	display: flex;
+	flex-flow: row;
+	/* justify-content: space-around; */
+}
+.climb-tab-menu li {
+	list-style: none;
+	padding: 5px 20px;
+	position: relative;
+	letter-spacing: 1px;
+}
+.climb-tab-menu li:hover {
+	background-color: lightgrey;
+	color: rgba(65, 79, 107, 0.9);
+	transition: all 0.5s ease-in-out;
+}
+.climb-tab-menu li:hover:after {
+	content: '';
+	border-bottom: 1px solid rgba(65, 79, 107, 0.9);
+	position: absolute;
+	bottom: 8px;
+	left: 18px;
+	width: 78%;
+}
+[ data-tab-content] {
+	display: none;
+}
+.active[ data-tab-content] {
+	display: block;
+}
+.tab.active {
+	background-color: lightgrey;
+	color: rgba(65, 79, 107, 0.9);
+}
+.tab.active:after {
+	content: '';
+	border-bottom: 1px solid rgba(65, 79, 107, 0.9);
+	position: absolute;
+	bottom: 8px;
+	left: 18px;
+	width: 78%;
+}
+.tab {
+	cursor: pointer;
+}
+#mountain1,
+#mountain2 {
+	padding-top: 10%;
+}
+.mountain1-background,
+.mountain2-background {
+	background-color: rgba(255, 255, 255, 0.5);
+	width: 35%;
+	padding: 30px;
+}
+h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: #414f6b;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1.5px;
+}
+#mountain1-content,
+#mountain2-content {
+	padding-top: 10px;
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	line-height: 2.5rem;
+	font-size: 1.3rem;
+}

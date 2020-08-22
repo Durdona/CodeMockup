@@ -1,42 +1,4 @@
-// $('.carousel').slick({
-// 	// autoplay: true,
-// 	// autoplaySpeed: 4000,
-// 	arrows: false,
-// 	slidesToShow: 4,
-// 	slidesToScroll: 2,
-// 	cssEase: 'linear',
-// 	dots: false,
-// 	// arrows: true,
-
-// 	// normal options...
-// 	infinite: false,
-// 	// the magic
-// 	responsive: [
-// 		{
-// 			breakpoint: 1024,
-// 			settings: {
-// 				slidesToShow: 3,
-// 				infinite: true
-// 				// autoplay: true,
-// 				// autoplaySpeed: 4000,
-// 			}
-// 		},
-// 		{
-// 			breakpoint: 600,
-// 			settings: {
-// 				slidesToShow: 2
-
-// 				// dots: true
-// 			}
-// 		},
-// 		{
-// 			breakpoint: 300,
-// 			settings: 'unslick' // destroys slick
-// 		}
-// 	]
-// });
-
-// Initialize Swiper
+// ====================== Initialize Swiper ======================
 var swiper = new Swiper('.swiper-container', {
 	slidesPerView: 4,
 	spaceBetween: 30,
@@ -62,4 +24,25 @@ var swiper = new Swiper('.swiper-container', {
 			spaceBetween: 30
 		}
 	}
+});
+
+// ====================== Making Tab working ======================
+
+const tabs = document.querySelectorAll('[data-tab-target');
+const tabContents = document.querySelectorAll('[data-tab-content]');
+
+tabs.forEach((tab) => {
+	tab.addEventListener('click', () => {
+		const target = document.querySelector(tab.dataset.tabTarget);
+
+		tabContents.forEach((tabContent) => {
+			tabContent.classList.remove('active');
+		});
+
+		tabs.forEach((tab) => {
+			tab.classList.remove('active');
+		});
+		tab.classList.add('active');
+		target.classList.add('active');
+	});
 });
