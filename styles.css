@@ -353,3 +353,24 @@ h1 {
 	line-height: 2.5rem;
 	font-size: 1.3rem;
 }
+
+/* ======================================= Footer ======================================= */
+
+footer {
+	background: rgba(65, 79, 107, 0.9);
+}
+.footer-copyright {
+	text-transform: uppercase;
+	font-size: 8px !important;
+	font-style: italic;
+	color: #63769d;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+
+footer .logo-headline-wrapper .losangeles {
+	color: #63769d;
+}
+footer .logo-headline-wrapper .mountains {
+	color: #63769d;
+}
