@@ -4,8 +4,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/> -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
     <title>PSD Mockup to HTML</title>
   </head>
 
@@ -53,11 +55,11 @@
                                     <li class="list"><a href="#team"> 02. team</a></li>
                                   </ul>
                                 </nav>
-                              </header>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                  </header>
+                </div>
+              </div>
+            </div>
+          </div>
 
                       <!-- ===================== History Page #2 ===================== -->
                       <div id="history">
@@ -98,15 +100,15 @@
                                                     <span class="losangeles">Losangeles</span>
                                                     <span class="mountains">Mountains</span>
                                                   </div>
-                                                </div>
+                              </div>
 
                                                 <ul class='ul-menu'>
                                                   <li class="list"><a href="#history">01. history</a></li>
                                                   <li class="list"><a href="#team"> 02. team</a></li>
                                                 </ul>
-                                              </nav>
-                                            </header>
-                                          </div>
+                            </nav>
+                          </header>
+                        </div>
                                           <article class="history">
                                             <div class="history-overlay">
                                               <div class="container">
@@ -114,6 +116,9 @@
                                                   <span class="history-title-number">01.</span>
                                                   <span class="history-title">history</span>
                                                 </div>
+
+
+
                                                 <p class="history-story">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Harum quam corrupti
                                                   ullam minus nobis
                                                   suscipit culpa quos excepturi! Recusandae laudantium similique ut incidunt nemo natus quam numquam,
@@ -124,20 +129,29 @@
                                                   Animi qui omnis sit, voluptate eaque nam ea nisi doloribus exercitationem ipsum ex ipsa veniam. Non
                                                   fuga maxime sit cumque aliquam rem ipsum!</p>
                                               </div>
+
                                               <div id="carousel">
-                                                <div data-slick='{" slidesToShow" : 4," slidesToScroll" : 4}' class="carousel">
-                                                  <div><h3>1</h3></div>
-                                                  <div><h3>2</h3></div>
-                                                  <div><h3>3</h3></div>
-                                                  <div><h3>4</h3></div>
-                                                  <div><h3>5</h3></div>
-                                                  <div><h3>6</h3></div>
+                                              <!-- Carousel -->
+                                              <div class="container">
+                                              <div class="swiper-container">
+                                                  <div class="swiper-wrapper">
+                                                    <div class="swiper-slide one"></div>
+                                                    <div class="swiper-slide two"></div>
+                                                    <div class="swiper-slide three"></div>
+                                                    <div class="swiper-slide four"></div>
+                                                    <div class="swiper-slide five"></div>
+                                                    <div class="swiper-slide six"></div>
+                                                    <div class="swiper-slide seven"></div>
+                                                    <div class="swiper-slide eight"></div>
+                                                    <div class="swiper-slide nine"></div>
+                                                    <div class="swiper-slide ten"></div>
+                                                  </div>
+                                                  <!-- Add Pagination -->
+                                                  <div class="swiper-pagination"></div>
                                                 </div>
-
                                               </div>
-
                                             </div>
-
+                                            </div>
                                           </article>
 
                                           <!-- <article id="climb">
@@ -145,19 +159,16 @@
                                             <div class="two"></div>
                                             <div class="three"></div>
                                           </article> -->
-                                        </div>
-                                        <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+
+                                        <!-- <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
                                         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                                        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script> -->
+                                        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+                                        <script src="./scripts.js"></script>
 
-                                        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
                                         <script>
- $(document).ready(function(){
-                                          $('.carousel').slick({
-                                            'setting-name': setting-value
-                                          });
-                                        });
 
 
-</script>
+                                      </script>
                                       </body>
                                     </html>
