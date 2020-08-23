@@ -11,6 +11,10 @@ var swiper = new Swiper('.swiper-container', {
 		clickable: true
 	},
 	breakpoints: {
+		375: {
+			slidesPerView: 3,
+			spaceBetween: 20
+		},
 		640: {
 			slidesPerView: 2,
 			spaceBetween: 20
@@ -45,4 +49,13 @@ tabs.forEach((tab) => {
 		tab.classList.add('active');
 		target.classList.add('active');
 	});
+});
+
+// ====================== Hamburger Menu ======================
+const hamburger = document.querySelector('.hamburger');
+const ulMenu = document.querySelector('.ul-menu');
+const links = document.querySelector('.ul-menu li');
+
+hamburger.addEventListener('click', () => {
+	ulMenu.classList.toggle('open');
 });

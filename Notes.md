@@ -8,8 +8,21 @@
 
 <!-- Rainbow text Animation using only CSS - https://stackoverflow.com/questions/54702124/rainbow-text-animation-using-only-css -->
 
-<!-- Understand CSS Mask in 4 minutes - https://www.youtube.com/watch?v=F22rI8jpaV4&list=PLuO9NnSXrnb_9ckXWf_m5Oe67Nt4DIQIQ&index=2&t=0s -->
+<!--  Clipping Mask CSS3
+1. Clipping Mask Image CSS3 - https://youtu.be/TnW8lTzEy2U
+2. Understand CSS Mask in 4 minutes - https://www.youtube.com/watch?v=F22rI8jpaV4&list=PLuO9NnSXrnb_9ckXWf_m5Oe67Nt4DIQIQ&index=2&t=0s -->
 
 <!-- CSS Overlay Techniques - https://tympanus.net/codrops/2013/11/07/css-overlay-techniques/  -->
 
+<!-- The most Modern Mobile Touch Slider - https://swiperjs.com/   https://swiperjs.com/demos/  -->
+
 <!-- Awesome Vue.JS related topics - https://madewithvuejs.com/vue-awesome-swiper -->
+
+<!-- Build Tabs using HTML / CSS in only 12 minutes - https://youtu.be/5L6h_MrNvsk -->
+
+<!-- Responsive Design I compared and slightly modified to use on my projects:
+  1.  What media query breakpoints should I use? - https://dev.to/rstacruz/what-media-query-breakpoints-should-i-use-292c
+  2. Responsive breakpoints in 2020 – WordPress responsive design tutorial - https://howto-wordpress-tips.com/responsive-breakpoints-tutorial/
+ -->
+
+ <!--   transform: translate(10px); /* Equal to: translateX(10px) or translate(10px, 0) */    -->

@@ -10,6 +10,7 @@ html,
 body {
 	position: relative;
 	height: 100%;
+	overflow-x: hidden;
 }
 
 body {
@@ -26,12 +27,14 @@ body {
 	background: url('./assets/background.jpg') no-repeat;
 	background-position: center center;
 	background-size: cover;
-	height: 100vh;
+	height: 100%;
+	width: 100%;
 }
 
 .overlay-hero {
 	background: rgba(255, 255, 255, 0.2);
 	height: 100vh;
+	overflow: hidden;
 }
 
 .headline-mask {
@@ -43,6 +46,7 @@ body {
 	mask-size: cover;
 	-webkit-mask-size: cover;
 	height: 100vh;
+	overflow: hidden;
 }
 
 .headline-mask .losangeles {
@@ -84,6 +88,9 @@ body {
 	justify-content: center;
 	align-content: center;
 	list-style: none;
+	width: 50%;
+	margin-left: auto; /* this moves list items to the left */
+	/* height: 100%; */
 }
 
 .ul-menu li a {
@@ -151,11 +158,13 @@ body {
 	background-position: top center;
 	background-size: cover;
 	height: 100vh;
+	overflow: hidden;
 }
 .history-overlay {
 	background-color: rgba(255, 255, 255, 0.03);
 	backdrop-filter: hue-rotate(30deg);
 	height: 100vh;
+	overflow: hidden;
 }
 .history-headline {
 	position: relative;
@@ -192,6 +201,7 @@ body {
 	height: 21vh;
 	background: rgba(65, 79, 107, 0.7);
 	width: 100vw;
+	overflow: hidden;
 }
 
 .swiper-container {
@@ -373,4 +383,111 @@ footer .logo-headline-wrapper .losangeles {
 }
 footer .logo-headline-wrapper .mountains {
 	color: #63769d;
+}
+
+/*  ============================================= Responsive Design =================================   */
+/*  ============================================================================================   */
+
+/*  ===============  Smartphones in portrait mode   ===============  */
+
+/* @media (max-width: 420px)  */
+@media (max-width: 500px) {
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	/* Hamburger */
+	.nav-menu {
+		padding-top: 5%;
+	}
+	#logo {
+		margin-left: 5%;
+	}
+	.ul-menu {
+		position: fixed;
+		background: rgba(255, 255, 255, 0.8);
+		/* background: rgba(65, 79, 107, 0.7); */
+		height: 100vh;
+		width: 100%;
+		margin-top: 25%;
+		flex-direction: column;
+		align-items: center;
+		clip-path: circle(100px at 40% -20%);
+		-webkit-clip-path: circle(100px at 90% -20%);
+		transition: all 1s ease-out;
+		pointer-events: none;
+	}
+	.ul-menu.open {
+		clip-path: circle(1005px at 40% -10%);
+		-webkit-clip-path: circle(1005px at 90% -10%);
+		pointer-events: all;
+	}
+	.ul-menu li {
+		padding-top: 80px;
+	}
+	.ul-menu li a {
+		color: black;
+	}
+	.ul-menu li a:after {
+		border-bottom: 1px solid black;
+	}
+	.line {
+		width: 30px;
+		height: 3px;
+		background: #414f6b;
+		margin: 5px;
+	}
+	.hamburger {
+		cursor: pointer;
+		margin-right: 5%;
+		z-index: 2;
+	}
+}
+
+/*  =============== Smartphones in landscape mode  =============== */
+@media (min-width: 421px) and (max-width: 812px) {
+	.container {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.nav-menu {
+		height: 8vh;
+	}
+	.headline-mask .losangeles {
+		font-size: 4.5rem;
+		position: absolute;
+		top: 30%;
+		left: 46%;
+		transform: translate(-50%, -50%);
+		letter-spacing: 1px;
+	}
+	.headline-mask .mountains {
+		font-size: 4.5rem;
+		text-transform: uppercase;
+		position: absolute;
+		top: 44%;
+		left: 46%;
+		transform: translate(-50%, -50%);
+		letter-spacing: 4px;
+	}
+	#logo {
+		padding-top: 10px;
+		padding-left: 10px;
+	}
+}
+
+/*  ===================== Tablets in portrait mode, large display smartphones landscape mode */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/*  ==================== Tablets in landscape mode, older desktop monitors */
+@media (min-width: 1024px) and (max-width: 1365px) {
+	h1 {
+		font-size: 32px;
+	}
+}
+
+/*  ==================== Monitors with screen width 1366px or above */
+@media (min-width: 1365px) {
 }
