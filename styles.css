@@ -459,6 +459,25 @@ footer .logo-headline-wrapper .mountains {
 		margin-right: 5%;
 		z-index: 2;
 	}
+	#history header .nav-menu {
+		padding-top: 0;
+		justify-content: center;
+		height: 15vh;
+	}
+	.history-title-number {
+		font-size: 10.5rem;
+	}
+	.history-title {
+		left: 170px;
+		bottom: 87px;
+	}
+	.history-story {
+		background: rgba(255, 255, 255, 0.5);
+		padding-top: 5%;
+	}
+	.history-headline {
+		padding-bottom: 5%;
+	}
 }
 
 /*  =============== Smartphones in landscape mode  =============== */
