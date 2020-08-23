@@ -158,8 +158,10 @@ body {
 	background-position: top center;
 	background-size: cover;
 	height: 100vh;
+	width: 100%;
 	overflow: hidden;
 }
+
 .history-overlay {
 	background-color: rgba(255, 255, 255, 0.03);
 	backdrop-filter: hue-rotate(30deg);
@@ -230,6 +232,9 @@ body {
 	background: url('./assets/thumbnail.jpg') no-repeat;
 	/* background-position: center center; */
 	background-size: cover;
+	width: auto;
+	max-width: 100%;
+	height: auto;
 }
 .two,
 .four,
@@ -239,6 +244,9 @@ body {
 	background: url('./assets/thumbnail1.jpg') no-repeat;
 	/* background-position: center center; */
 	background-size: cover;
+	width: auto;
+	max-width: 100%;
+	height: auto;
 }
 :root {
 	--swiper-theme-color: lightgrey !important;
@@ -478,10 +486,22 @@ footer .logo-headline-wrapper .mountains {
 	.history-headline {
 		padding-bottom: 5%;
 	}
+	.swiper-wrapper {
+		padding-left: 5.5%;
+		/* padding-right: 5%; */
+	}
+	.swiper-container {
+		height: auto;
+		overflow-y: hidden;
+	}
+	.swiper-slide {
+		height: auto;
+		width: 185px !important;
+	}
 }
 
 /*  =============== Smartphones in landscape mode  =============== */
-@media (min-width: 421px) and (max-width: 812px) {
+@media (min-width: 421px) and (max-width: 812px) and (orientation: landscape) {
 	.container {
 		padding-left: 0;
 		padding-right: 0;
@@ -509,6 +529,49 @@ footer .logo-headline-wrapper .mountains {
 	#logo {
 		padding-top: 10px;
 		padding-left: 10px;
+	}
+	#history header .nav-menu {
+		padding-top: 0;
+		justify-content: center;
+		height: 30vh;
+	}
+	.history-title-number {
+		font-size: 10rem;
+		position: absolute;
+	}
+	.history-title {
+		left: 167px;
+		position: absolute;
+		top: 98px;
+		color: rgba(65, 79, 107, 0.5);
+	}
+	.history-story {
+		background: rgba(255, 255, 255, 0.5);
+		padding-top: 5.5%;
+		margin-top: -4%;
+		line-height: 1.4rem;
+		height: 74%;
+	}
+	.history-headline {
+		padding-bottom: 0;
+	}
+	#carousel {
+		height: 34vh;
+	}
+	.history-overlay .container {
+		padding-left: 4%;
+		/* padding-right: 4%; */
+	}
+
+	.swiper-container {
+		height: auto;
+		overflow-y: hidden;
+	}
+	.swiper-wrapper {
+		margin-top: -5px;
+	}
+	.swiper-slide {
+		height: auto;
 	}
 }
 
