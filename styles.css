@@ -396,7 +396,23 @@ footer .logo-headline-wrapper .mountains {
 		padding-left: 0;
 		padding-right: 0;
 	}
-
+	.headline-mask .losangeles {
+		font-size: 4.5rem;
+		position: absolute;
+		top: 39%;
+		left: 47%;
+		transform: translate(-50%, -50%);
+		letter-spacing: 1px;
+	}
+	.headline-mask .mountains {
+		font-size: 4.5rem;
+		text-transform: uppercase;
+		position: absolute;
+		top: 47%;
+		left: 48%;
+		letter-spacing: 4px;
+		/* transform: translate(-50%, -50%); */
+	}
 	/* Hamburger */
 	.nav-menu {
 		padding-top: 5%;
