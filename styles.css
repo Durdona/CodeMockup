@@ -28,12 +28,11 @@ body {
 	background-position: center center;
 	background-size: cover;
 	height: 100%;
-	width: 100%;
 }
 
 .overlay-hero {
-	background: rgba(255, 255, 255, 0.2);
-	height: 100vh;
+	background: rgba(255, 255, 255, 0.3);
+	height: 100%;
 	overflow: hidden;
 }
 
@@ -45,7 +44,8 @@ body {
 	-webkit-mask-position: center center;
 	mask-size: cover;
 	-webkit-mask-size: cover;
-	height: 100vh;
+	height: 100%;
+	/* width: 100%; */
 	overflow: hidden;
 }
 
