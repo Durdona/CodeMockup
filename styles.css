@@ -545,15 +545,11 @@ footer .logo-headline-wrapper .mountains {
 		padding-top: 20px;
 	}
 	/* ============== Footer =================== */
-	#logo {
-		margin-left: 0;
-	}
+
 	.logo-headline {
-		justify-content: stretch;
+		justify-content: normal;
 	}
-	#history header .nav-menu {
-		height: 14vh;
-	}
+
 	.footer-copyright {
 		font-style: normal;
 	}
