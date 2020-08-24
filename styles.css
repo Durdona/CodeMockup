@@ -545,6 +545,9 @@ footer .logo-headline-wrapper .mountains {
 		padding-top: 20px;
 	}
 	/* ============== Footer =================== */
+	#history header .nav-menu {
+		justify-content: normal;
+	}
 
 	.logo-headline {
 		/* flex-flow: wrap; */
@@ -553,7 +556,8 @@ footer .logo-headline-wrapper .mountains {
 
 	.footer-copyright {
 		font-style: normal;
-		width: 80%;
+		padding-left: 5%;
+		width: 90%;
 	}
 }
 
