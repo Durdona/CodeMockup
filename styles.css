@@ -491,12 +491,13 @@ footer .logo-headline-wrapper .mountains {
 	}
 
 	.swiper-wrapper {
-		padding-left: 5.5%;
+		/* padding-left: 5.5%; */
 		/* padding-right: 5%; */
 	}
 	.swiper-container {
 		height: auto;
 		overflow-y: hidden;
+		bottom: 14px;
 	}
 	.swiper-slide {
 		height: auto;
