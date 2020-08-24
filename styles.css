@@ -547,11 +547,13 @@ footer .logo-headline-wrapper .mountains {
 	/* ============== Footer =================== */
 
 	.logo-headline {
+		/* flex-flow: wrap; */
 		justify-content: normal;
 	}
 
 	.footer-copyright {
 		font-style: normal;
+		width: 80%;
 	}
 }
 
