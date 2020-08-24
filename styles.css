@@ -505,6 +505,9 @@ footer .logo-headline-wrapper .mountains {
 	}
 
 	/*  ==================== Climb Page #2 ===================== */
+	.climb-header {
+		display: inline-block;
+	}
 	.climb-title-number {
 		font-size: 10.5rem;
 	}
@@ -514,10 +517,45 @@ footer .logo-headline-wrapper .mountains {
 		left: 184px;
 	}
 	.climb-paragraph {
-		background: rgba(255, 255, 255, 0.5);
-		z-index: 3;
+		/* background: rgba(255, 255, 255, 0.5); */
 		padding: 5%;
 		border-radius: 7px;
+		width: 100%;
+		margin-top: -10px;
+		margin-bottom: 10px;
+		line-height: 1.4rem;
+	}
+	.climb-tab-menu {
+		justify-content: space-evenly;
+	}
+	/* ============== Tab Content =============== */
+	.mountain1-background,
+	.mountain2-background {
+		width: 100%;
+	}
+	.mountain1-background h1,
+	.mountain2-background h1 {
+		margin-top: 10px;
+	}
+	#mountain1-content,
+	#mountain2-content {
+		width: 90%;
+		height: 55%;
+		line-height: 3rem;
+		padding-top: 20px;
+	}
+	/* ============== Footer =================== */
+	#logo {
+		margin-left: 0;
+	}
+	.logo-headline {
+		justify-content: stretch;
+	}
+	#history header .nav-menu {
+		height: 14vh;
+	}
+	.footer-copyright {
+		font-style: normal;
 	}
 }
 
