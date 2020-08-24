@@ -405,7 +405,7 @@ footer .logo-headline-wrapper .mountains {
 		padding-right: 0;
 	}
 	.headline-mask .losangeles {
-		font-size: 4.5rem;
+		font-size: 5rem;
 		position: absolute;
 		top: 39%;
 		left: 47%;
@@ -413,7 +413,7 @@ footer .logo-headline-wrapper .mountains {
 		letter-spacing: 1px;
 	}
 	.headline-mask .mountains {
-		font-size: 4.5rem;
+		font-size: 5rem;
 		text-transform: uppercase;
 		position: absolute;
 		top: 47%;
@@ -430,7 +430,7 @@ footer .logo-headline-wrapper .mountains {
 	}
 	.ul-menu {
 		position: fixed;
-		background: rgba(255, 255, 255, 0.8);
+		background: rgba(255, 255, 255, 0.9);
 		/* background: rgba(65, 79, 107, 0.7); */
 		height: 100vh;
 		width: 100%;
@@ -514,7 +514,7 @@ footer .logo-headline-wrapper .mountains {
 	.climb-title {
 		color: rgba(65, 79, 107, 0.9);
 		bottom: 70px;
-		left: 186px;
+		left: 190px;
 	}
 	.climb-paragraph {
 		/* background: rgba(255, 255, 255, 0.5); */
