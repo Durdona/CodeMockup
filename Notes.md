@@ -21,6 +21,7 @@
 <!-- Build Tabs using HTML / CSS in only 12 minutes - https://youtu.be/5L6h_MrNvsk -->
 
 <!-- Responsive Design I compared and slightly modified to use on my projects:
+  0.
   1.  What media query breakpoints should I use? - https://dev.to/rstacruz/what-media-query-breakpoints-should-i-use-292c
   2. Responsive breakpoints in 2020 – WordPress responsive design tutorial - https://howto-wordpress-tips.com/responsive-breakpoints-tutorial/
  -->
