@@ -491,7 +491,7 @@ footer .logo-headline-wrapper .mountains {
 	}
 
 	.swiper-wrapper {
-		/* padding-left: 5.5%; */
+		padding-left: 2.5%;
 		/* padding-right: 5%; */
 	}
 	.swiper-container {
@@ -503,10 +503,26 @@ footer .logo-headline-wrapper .mountains {
 		height: auto;
 		width: 185px !important;
 	}
+
+	/*  ==================== Climb Page #2 ===================== */
+	.climb-title-number {
+		font-size: 10.5rem;
+	}
+	.climb-title {
+		color: rgba(65, 79, 107, 0.5);
+		bottom: 70px;
+		left: 184px;
+	}
+	.climb-paragraph {
+		background: rgba(255, 255, 255, 0.5);
+		z-index: 3;
+		padding: 5%;
+		border-radius: 7px;
+	}
 }
 
 /*  =============== Smartphones in landscape mode  =============== */
-@media (min-width: 421px) and (max-width: 812px) and (orientation: landscape) {
+@media (min-width: 414px) and (max-width: 920px) and (orientation: landscape) {
 	.container {
 		padding-left: 0;
 		padding-right: 0;
