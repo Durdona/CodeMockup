@@ -573,7 +573,7 @@ footer .logo-headline-wrapper .mountains {
 	.headline-mask .losangeles {
 		font-size: 4.5rem;
 		position: absolute;
-		top: 30%;
+		top: 29%;
 		left: 46%;
 		transform: translate(-50%, -50%);
 		letter-spacing: 1px;
@@ -594,7 +594,7 @@ footer .logo-headline-wrapper .mountains {
 	#history header .nav-menu {
 		padding-top: 0;
 		justify-content: center;
-		height: 30vh;
+		height: 28vh;
 	}
 	.history-title-number {
 		font-size: 10rem;
@@ -609,7 +609,7 @@ footer .logo-headline-wrapper .mountains {
 	.history-story {
 		background: rgba(255, 255, 255, 0.5);
 		padding-top: 5.5%;
-		margin-top: -4%;
+		margin-top: -3%;
 		line-height: 1.4rem;
 		height: 74%;
 	}
@@ -619,11 +619,6 @@ footer .logo-headline-wrapper .mountains {
 	#carousel {
 		height: 34vh;
 	}
-	.history-overlay .container {
-		/* padding-left: 4%; */
-		/* padding-right: 4%; */
-	}
-
 	.swiper-container {
 		height: auto;
 		overflow-y: hidden;
@@ -633,6 +628,47 @@ footer .logo-headline-wrapper .mountains {
 	}
 	.swiper-slide {
 		height: auto;
+	}
+
+	.mountain1-background,
+	.mountain2-background {
+		margin: auto;
+		width: 70%;
+	}
+	#mountain1-content,
+	#mountain2-content {
+		margin: auto;
+		padding-top: 0;
+		line-height: 2rem;
+	}
+	h1 {
+		text-align: center;
+	}
+	.climb-header {
+		height: 57%;
+	}
+	.climb-tab-menu {
+		justify-content: space-between;
+		width: 70%;
+		margin: auto;
+	}
+	.climb-paragraph {
+		width: 55%;
+		margin-top: 40px;
+	}
+	#mountain1,
+	#mountain2 {
+		padding-top: 2%;
+	}
+	#history header .nav-menu {
+		justify-content: space-evenly;
+	}
+	#logo-footer {
+		padding-left: 0;
+		padding-top: 0;
+	}
+	.footer-copyright {
+		font-style: normal;
 	}
 }
 
