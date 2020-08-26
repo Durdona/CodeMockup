@@ -729,7 +729,7 @@ footer .logo-headline-wrapper .mountains {
 	}
 }
 
-/*  ===================== Tablets in portrait mode, large display smartphones landscape mode */
+/*  ===================== Tablets in portrait mode  */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 	.headline-mask .losangeles,
 	.headline-mask .mountains {
@@ -777,11 +777,66 @@ footer .logo-headline-wrapper .mountains {
 		width: 75%;
 	}
 }
+/*  ===================== Tablet Others smaller viewport  in Landscape mode */
+@media only screen and (min-width: 600px) and (orientation: landscape) {
+	.nav-menu {
+		height: 16vh;
+	}
+	.headline-mask .mountains,
+	.headline-mask .losangeles {
+		font-size: 8rem;
+	}
+	.headline-mask .losangeles {
+		letter-spacing: 0;
+	}
+	.history-story {
+		line-height: 1.4rem;
+		font-size: 1.3rem;
+		padding: 15px;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 5px;
+		width: 105%;
+	}
+	.climb-paragraph {
+		width: 100%;
+		padding-right: 0;
+		padding-left: 20%;
+		font-size: 1.3rem;
+	}
+	.mountain1-background,
+	.mountain2-background {
+		width: 96%;
+	}
+	#mountain1-content,
+	#mountain2-content {
+		font-size: 1.7rem;
+		line-height: 3rem;
+		width: 65%;
+	}
+}
 
 /*  ==================== Tablets in landscape mode, older desktop monitors */
-@media (min-width: 1024px) and (max-width: 1365px) and (orientation: landscape) {
+@media (min-width: 1024px) and (max-width: 1366px) and (orientation: landscape) {
 	.headline-mask .losangeles {
-		top: 33%;
+		top: 27%;
+	}
+	.history-story {
+		line-height: 2rem;
+		font-size: 1.5rem;
+		padding: 15px;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 5px;
+		width: 105%;
+	}
+	.mountain1-background,
+	.mountain2-background {
+		width: 80%;
+	}
+	#mountain1-content,
+	#mountain2-content {
+		font-size: 1.7rem;
+		line-height: 3rem;
+		width: 65%;
 	}
 }
 
