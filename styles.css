@@ -674,12 +674,33 @@ footer .logo-headline-wrapper .mountains {
 
 /*  ===================== Tablets in portrait mode, large display smartphones landscape mode */
 @media (min-width: 768px) and (max-width: 1023px) {
+	.headline-mask .losangeles,
+	.headline-mask .mountains {
+		font-size: 10.5rem;
+	}
+	.headline-mask .losangeles {
+		top: 31%;
+	}
+	.history-story {
+		line-height: 2rem;
+		font-size: 1.7rem;
+		padding: 15px;
+		background: rgba(255, 255, 255, 0.3);
+		border-radius: 5px;
+		width: 105%;
+	}
+	#carousel {
+		height: 19vh;
+	}
+	.swiper-container {
+		height: 18vh;
+	}
 }
 
 /*  ==================== Tablets in landscape mode, older desktop monitors */
 @media (min-width: 1024px) and (max-width: 1365px) {
-	h1 {
-		font-size: 32px;
+	.headline-mask .losangeles {
+		top: 33%;
 	}
 }
 
