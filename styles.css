@@ -470,7 +470,7 @@ footer .logo-headline-wrapper .mountains {
 	#history header .nav-menu {
 		padding-top: 0;
 		justify-content: center;
-		height: 15vh;
+		height: 16vh;
 	}
 	.history-headline {
 		padding-bottom: 0;
@@ -563,7 +563,7 @@ footer .logo-headline-wrapper .mountains {
 
 /*  =============== Smartphones in landscape mode  =============== */
 @media (min-width: 414px) and (max-width: 920px) and (orientation: landscape) {
-	/* @media (min-width: 421px) and (max-width: 767px) { */
+	/* @media (min-width: 421px) and (max-width: 767px) and (orientation: landscape) { */
 	.container {
 		padding-left: 0;
 		padding-right: 0;
@@ -701,6 +701,9 @@ footer .logo-headline-wrapper .mountains {
 	.logo-headline {
 		margin-left: -30px;
 	}
+	.history-title {
+		left: 195px;
+	}
 	.history-story {
 		line-height: 2rem;
 		font-size: 1.2rem;
@@ -780,24 +783,27 @@ footer .logo-headline-wrapper .mountains {
 	}
 }
 /*  ===================== Tablet Others smaller viewport  in Landscape mode */
-@media only screen and (min-width: 600px) and (orientation: landscape) {
+@media (min-width: 600px) and (orientation: landscape) {
 	.nav-menu {
 		height: 16vh;
 	}
 	.headline-mask .mountains,
 	.headline-mask .losangeles {
-		font-size: 8rem;
+		/* font-size: 8rem; */
 	}
 	.headline-mask .losangeles {
 		letter-spacing: 0;
 	}
+	.history-title {
+		left: 200px;
+	}
 	.history-story {
-		line-height: 1.4rem;
+		/* line-height: 1.4rem;
 		font-size: 1.3rem;
 		padding: 15px;
 		background: rgba(255, 255, 255, 0.3);
 		border-radius: 5px;
-		width: 105%;
+		width: 105%; */
 	}
 	.climb-paragraph {
 		width: 100%;
@@ -805,7 +811,7 @@ footer .logo-headline-wrapper .mountains {
 		padding-left: 20%;
 		font-size: 1.3rem;
 	}
-	.mountain1-background,
+	/* .mountain1-background,
 	.mountain2-background {
 		width: 96%;
 	}
@@ -814,7 +820,7 @@ footer .logo-headline-wrapper .mountains {
 		font-size: 1.7rem;
 		line-height: 3rem;
 		width: 65%;
-	}
+	} */
 }
 
 /*  ==================== Tablets in landscape mode, older desktop monitors */
