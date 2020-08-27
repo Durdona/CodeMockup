@@ -876,6 +876,10 @@ footer .logo-headline-wrapper .mountains {
 	.headline-mask .losangeles {
 		top: 28%;
 		letter-spacing: -1px;
+		left: 44%;
+	}
+	.history-title {
+		left: 212px;
 	}
 	.history-story {
 		line-height: 2rem;
