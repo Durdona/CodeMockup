@@ -1,3 +1,12 @@
+// ====================== Hamburger Menu ======================
+const hamburger = document.querySelector('.hamburger');
+const ulMenu = document.querySelector('.ul-menu');
+const links = document.querySelector('.ul-menu li');
+
+hamburger.addEventListener('click', () => {
+	ulMenu.classList.toggle('open');
+});
+
 // ====================== Initialize Swiper ======================
 var swiper = new Swiper('.swiper-container', {
 	slidesPerView: 4,
@@ -49,13 +58,4 @@ tabs.forEach((tab) => {
 		tab.classList.add('active');
 		target.classList.add('active');
 	});
-});
-
-// ====================== Hamburger Menu ======================
-const hamburger = document.querySelector('.hamburger');
-const ulMenu = document.querySelector('.ul-menu');
-const links = document.querySelector('.ul-menu li');
-
-hamburger.addEventListener('click', () => {
-	ulMenu.classList.toggle('open');
 });

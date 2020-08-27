@@ -80,7 +80,7 @@ body {
 	justify-content: space-between;
 	align-items: center;
 	height: 12vh;
-	/* background: pink; */
+	/* background: purple; */
 }
 
 .ul-menu {
@@ -431,7 +431,6 @@ footer .logo-headline-wrapper .mountains {
 	.ul-menu {
 		position: fixed;
 		background: rgba(255, 255, 255, 0.9);
-		/* background: rgba(65, 79, 107, 0.7); */
 		height: 100vh;
 		width: 100%;
 		margin-top: 25%;
@@ -492,7 +491,6 @@ footer .logo-headline-wrapper .mountains {
 
 	.swiper-wrapper {
 		padding-left: 2.5%;
-		/* padding-right: 5%; */
 	}
 	.swiper-container {
 		height: auto;
@@ -517,7 +515,6 @@ footer .logo-headline-wrapper .mountains {
 		left: 190px;
 	}
 	.climb-paragraph {
-		/* background: rgba(255, 255, 255, 0.5); */
 		padding: 5%;
 		border-radius: 7px;
 		width: 100%;
@@ -550,7 +547,6 @@ footer .logo-headline-wrapper .mountains {
 	}
 
 	.logo-headline {
-		/* flex-flow: wrap; */
 		justify-content: normal;
 	}
 
@@ -682,7 +678,7 @@ footer .logo-headline-wrapper .mountains {
 	}
 }
 /*  ===================== Tablet Others smaller viewport  in portrait mode */
-@media only screen and (min-width: 600px) and (orientation: portrait) {
+@media (min-width: 600px) and (orientation: portrait) {
 	.headline-mask .losangeles,
 	.headline-mask .mountains {
 		font-size: 8rem;
@@ -734,7 +730,7 @@ footer .logo-headline-wrapper .mountains {
 	}
 }
 
-/*  ===================== Tablets in portrait mode  */
+/*  ===================== Tablets Normals in portrait mode  */
 @media (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
 	.headline-mask .losangeles,
 	.headline-mask .mountains {
