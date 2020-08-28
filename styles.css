@@ -101,6 +101,10 @@ body {
 	font-style: italic;
 	position: relative;
 }
+.ul-menu li a:hover {
+	transition: all 0.5s ease-in-out;
+	color: #414f6b;
+}
 
 .ul-menu li a:after {
 	content: '';
@@ -112,7 +116,7 @@ body {
 }
 .ul-menu li a:hover:after {
 	transition: all 0.5s ease-in-out;
-	border-bottom: 1px solid blue;
+	border-bottom: 1px solid #414f6b;
 }
 /* ======================================= History Page #2 ======================================= */
 .logo-headline {
@@ -869,12 +873,15 @@ footer .logo-headline-wrapper .mountains {
 
 /*  ==================== Monitors with screen width 1366px or above */
 @media (min-width: 1365px) {
+	.nav-menu {
+		height: 12vh;
+	}
 	.headline-mask .mountains,
 	.headline-mask .losangeles {
 		font-size: 11rem;
 	}
 	.headline-mask .losangeles {
-		top: 28%;
+		top: 29%;
 		letter-spacing: -1px;
 		left: 44%;
 	}
@@ -885,13 +892,15 @@ footer .logo-headline-wrapper .mountains {
 		line-height: 2rem;
 		font-size: 1.4rem;
 		padding: 20px;
-		background: rgba(255, 255, 255, 0.3);
+		background: rgba(255, 255, 255, 0.2);
 		border-radius: 5px;
 		width: 80%;
+		margin-left: 12%;
+		margin-top: -40px;
 	}
 	.mountain1-background,
 	.mountain2-background {
-		width: 60%;
+		width: 50%;
 	}
 	#mountain1-content,
 	#mountain2-content {
