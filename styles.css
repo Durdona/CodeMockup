@@ -249,6 +249,7 @@ body {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+	height: 25vh;
 }
 
 .climb-headline {
@@ -276,6 +277,7 @@ body {
 	width: 70%;
 	padding-right: 5%;
 	padding-left: 5%;
+	line-height: 1.5rem;
 }
 
 /* ------------ Building Tab ------------------ */
@@ -494,7 +496,7 @@ footer .logo-headline-wrapper .mountains {
 		width: 185px !important;
 	}
 
-	/*  ==================== Climb Page #2 ===================== */
+	/*  ==================== Climb Page #3 ===================== */
 	.climb-header {
 		display: inline-block;
 	}
@@ -799,7 +801,7 @@ footer .logo-headline-wrapper .mountains {
 		width: 100%;
 		padding-right: 0;
 		padding-left: 20%;
-		font-size: 1.3rem;
+		/* font-size: 1.3rem; */
 	}
 	/* .mountain1-background,
 	.mountain2-background {
